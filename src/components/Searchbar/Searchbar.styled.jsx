@@ -29,7 +29,7 @@ export const SearchForm = styled.form`
 `
 export const SearchFormButton = styled.button`
      display: inline-block;
-  width: 48px;
+  /* width: 48px; */
   height: 48px;
   border: 0;
   background-image: url('https://image.flaticon.com/icons/svg/149/149852.svg');
@@ -42,6 +42,14 @@ export const SearchFormButton = styled.button`
   outline: none;
   &:hover{
       opacity: 1;
+  }
+   > svg {
+      width: 50px;
+    height: 20px;
+    top: 50%;
+    right: 4px;
+    
+    
   }
 `
 export const SearchFormButtonLabel = styled.span`
